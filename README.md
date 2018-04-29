@@ -11,3 +11,15 @@ Add the following property value in the server application.properties file
 spring.cloud.config.server.git.uri --> give the uri to local git
 
 Rename the application.properties in the client spring config to bootstrap.properties
+
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+Feign Client
+
+Makes it very easy to invoke microservices (REST based)
+
+Ribbon 
+
+Client side load balancing
+
