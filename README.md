@@ -23,3 +23,4 @@ Ribbon
 
 Client side load balancing
 
+We need to add <servicename>.ribbon.listOfServers=http://<hostname>:port1,http://<hostname>:port2
