@@ -13,11 +13,11 @@ public class APIController {
 	LimitServiceProxy limitServiceProxy;
 	
 	@GetMapping("/RibbonRestCall")
-	public void callLimitServiceFromConfigClientServiceFeign() {
+	public String callLimitServiceFromConfigClientServiceFeign() {
 		
 		Object object = null;
 		object = limitServiceProxy.getAccount();
 		
-		System.out.println("From Ribbon Client : " + object.toString());
+		return ("From Ribbon Client : " + object.toString());
 	}	
 }
